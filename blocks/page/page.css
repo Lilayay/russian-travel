@@ -12,3 +12,8 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+  .page {
+    padding-top: 16px;
+  }
+}

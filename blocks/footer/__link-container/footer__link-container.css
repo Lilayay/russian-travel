@@ -1,0 +1,21 @@
+.footer__link-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 18px;
+}
+
+.footer__link-container:first-child {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__link-container {
+    padding-top: 32px;
+    padding-left: 0;
+  }
+  .footer__link-container:first-child {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}

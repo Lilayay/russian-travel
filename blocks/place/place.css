@@ -28,14 +28,10 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .place {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    grid-template-rows: (5, auto);
     row-gap: 32px;
     padding-top: 50px;
   }
