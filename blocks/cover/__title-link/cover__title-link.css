@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 1184 / 740;
+  flex-basis: calc(740 / 1184 * 100vw);
   position: relative;
 }
 
