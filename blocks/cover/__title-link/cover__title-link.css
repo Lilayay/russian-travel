@@ -24,7 +24,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
 }
 .cover__title-link:hover::after {
   opacity: 0.8;
